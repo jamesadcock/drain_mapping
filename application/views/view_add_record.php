@@ -120,13 +120,5 @@
             echo form_close();
 
          ?>
-
-        <div>
-            <?php
-
-            echo '<br> <br><br>'.$map['html'];
-
-            ?>
-        </div>
 </body>
 </html>

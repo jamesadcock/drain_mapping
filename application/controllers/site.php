@@ -47,22 +47,13 @@ class Site extends CI_Controller {
             $this->googlemaps->add_marker($marker);
         }
 
-
-
-
         $data['map'] = $this->googlemaps->create_map();
         return $data;
 
     }
 
-
-
-
     function  showLastLocation($id)
     {
-
-
-
         $this->load->model('get_db');
         $this->load->library('googlemaps');
 
@@ -81,13 +72,8 @@ class Site extends CI_Controller {
             $this->googlemaps->add_marker($marker);
         }
 
-
-
-
         $data['map'] = $this->googlemaps->create_map();
-        $this->load->view('view_add_record',$data);
-
-
+        $this->load->view('view_confirm_record',$data);
 
     }
 }

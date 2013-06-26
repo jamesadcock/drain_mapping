@@ -14,6 +14,7 @@
     <file path="/a.dummy" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1371902622662" ignored="false" />
     <file path="/Input.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1371983257644" ignored="false" />
     <file path="/head.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1372276288674" ignored="false" />
+    <file path="/view_confirm_record.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1372287392222" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,25 @@
       <file leaf-file-name="site.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/site.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="42" selection-start="1932" selection-end="1932" vertical-scroll-proportion="0.7833622">
+            <state line="75" column="39" selection-start="1917" selection-end="1917" vertical-scroll-proportion="0.7634783">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view_confirm_record.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/view_confirm_record.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="48" selection-start="1663" selection-end="1663" vertical-scroll-proportion="-17.708334">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view_add_record.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/view_add_record.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="121" column="11" selection-start="2388" selection-end="2388" vertical-scroll-proportion="-18.958334">
               <folding />
             </state>
           </provider>
@@ -73,6 +92,8 @@
         <option value="$PROJECT_DIR$/application/views/reports_view.php" />
         <option value="$PROJECT_DIR$/application/views/input_form.php" />
         <option value="$PROJECT_DIR$/application/models/get_db.php" />
+        <option value="$PROJECT_DIR$/application/views/view_confirm_record.php" />
+        <option value="$PROJECT_DIR$/application/views/view_add_record.php" />
         <option value="$PROJECT_DIR$/application/controllers/site.php" />
       </list>
     </option>
@@ -157,24 +178,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapping" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapping" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,15 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/view_add_record.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="5" selection-start="116" selection-end="1086" vertical-scroll-proportion="-14.5">
-          <folding>
-            <marker date="1372277334818" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="36" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.75213677">
@@ -392,9 +386,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/view_confirm_record.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="48" selection-start="1663" selection-end="1663" vertical-scroll-proportion="-17.708334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/view_add_record.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="11" selection-start="2388" selection-end="2388" vertical-scroll-proportion="-18.958334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/site.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="42" selection-start="1932" selection-end="1932" vertical-scroll-proportion="0.7833622">
+        <state line="75" column="39" selection-start="1917" selection-end="1917" vertical-scroll-proportion="0.7634783">
           <folding />
         </state>
       </provider>
