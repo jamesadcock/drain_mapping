@@ -5,12 +5,32 @@ class Site extends CI_Controller {
     public function index()
     {
         $data=$this->showMap();
-        $this->load->view('view_add_record',$data);
+        $this->load->view('view_reports',$data);
+    }
+
+
+    function showMap()
+    {
+
+
+        $this->load->model('get_db');
+        $this->load->model('maps');
+        $config=array();
+        $config['center']='53 38 33N, 1 46 67W';
+        $config['zoom']='auto';
+
+        $this->maps->initializeMap($config);
+
+        $query=$this->get_db->getMapInfo(); // gets marker positions and text box values from db.
+        $this->maps->addMarkers($query);
+
+        $data['map'] = $this->maps->returnMap();
+        return $data;
 
     }
 
 
-    public function insertValues()
+    function insertValues()
     {
 
 
@@ -26,53 +46,18 @@ class Site extends CI_Controller {
 
     }
 
-    function showMap()
-    {
-
-        $this->load->model('get_db');
-        $this->load->library('googlemaps');
-
-        $config=array();
-        $config['center']='53 38 33N, 1 46 67W';
-        $config['zoom']='auto';
-        $this->googlemaps->initialize($config);
-
-
-        $query=$this->get_db->getMapInfo();
-        $marker=array();
-        foreach ($query->result() as $row)
-        {
-            $marker['position']= $row->coordinate;
-            $marker['infowindow_content']=$row->note;
-            $this->googlemaps->add_marker($marker);
-        }
-
-        $data['map'] = $this->googlemaps->create_map();
-        return $data;
-
-    }
 
     function  showLastLocation($id)
     {
         $this->load->model('get_db');
-        $this->load->library('googlemaps');
-
+        $this->load->model('maps');
         $config=array();
         $config['center']='53 38 33N, 1 46 67W';
         $config['zoom']='auto';
-        $this->googlemaps->initialize($config);
-
-
+        $this->maps->initializeMap($config);
         $query=$this->get_db->getLastRecord($id);
-        $marker=array();
-        foreach ($query->result() as $row)
-        {
-            $marker['position']= $row->coordinate;
-            $marker['infowindow_content']=$row->note;
-            $this->googlemaps->add_marker($marker);
-        }
-
-        $data['map'] = $this->googlemaps->create_map();
+        $this->maps->addMarkers($query);
+        $data['map'] = $this->maps->returnMap();
         $this->load->view('view_confirm_record',$data);
 
     }
