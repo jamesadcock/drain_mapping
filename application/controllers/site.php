@@ -5,7 +5,17 @@ class Site extends CI_Controller {
     public function index()
     {
         $data=$this->showMap();
+        $data['heading']='Reports';
+        $this->load->view('view_head',$data);
         $this->load->view('view_reports',$data);
+    }
+
+    public function addRecord()
+    {
+
+        $data=array();
+        $data['heading']='Add Record';
+        $this->load->view('view_add_record');
     }
 
 
