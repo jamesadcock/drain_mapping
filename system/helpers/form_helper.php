@@ -512,7 +512,8 @@ if ( ! function_exists('form_button'))
  */
 if ( ! function_exists('form_label'))
 {
-	function form_label($label_text = '', $id = '', $attributes = array())
+	function
+    form_label($label_text = '', $id = '', $attributes = array())
 	{
 
 		$label = '<label';
