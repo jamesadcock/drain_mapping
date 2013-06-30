@@ -15,7 +15,7 @@ class Site extends CI_Controller {
 
         $data=array();
         $data['heading']='Add Record';
-        $this->load->view('view_add_record');
+        $this->load->view('view_add_record',$data);
     }
 
 
@@ -68,6 +68,8 @@ class Site extends CI_Controller {
         $query=$this->get_db->getLastRecord($id);
         $this->maps->addMarkers($query);
         $data['map'] = $this->maps->returnMap();
+        $data['heading']='Record Added';
+        $this->load->view('view_head',$data);
         $this->load->view('view_confirm_record',$data);
 
     }

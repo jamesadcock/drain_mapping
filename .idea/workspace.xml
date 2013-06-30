@@ -9,18 +9,18 @@
     <file path="/input_form.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1371987419983" ignored="false" />
     <file path="/get_db.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1372284670932" ignored="false" />
     <file path="/view_db.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1371898683386" ignored="false" />
-    <file path="/site.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1372500637281" ignored="false" />
+    <file path="/site.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1372551388847" ignored="false" />
     <file path="/maths.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1371900298548" ignored="false" />
     <file path="/a.dummy" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1372412255142" ignored="false" />
     <file path="/Input.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1371983257644" ignored="false" />
     <file path="/head.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1372276288674" ignored="false" />
-    <file path="/view_confirm_record.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1372287392222" ignored="false" />
+    <file path="/view_confirm_record.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1372544166848" ignored="false" />
     <file path="/db.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1372407851691" ignored="false" />
     <file path="/model_maps.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1372412199531" ignored="false" />
-    <file path="/view_reports.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1372499333046" ignored="false" />
+    <file path="/view_reports.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1372543608654" ignored="false" />
     <file path="/autoload.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1372496336173" ignored="false" />
-    <file path="/view_head.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1372501461223" ignored="false" />
-    <file path="/view_add_record.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1372500249500" ignored="false" />
+    <file path="/view_head.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1372543496170" ignored="false" />
+    <file path="/view_add_record.php" changelist="228a28d7-8297-4b28-a3d2-260dd2d1082e" time="1372550595246" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +40,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="site.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="site.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/site.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="31" selection-start="177" selection-end="177" vertical-scroll-proportion="-3.5416667">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view_head.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/view_head.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="147" selection-start="547" selection-end="547" vertical-scroll-proportion="0.39399624">
+            <state line="17" column="49" selection-start="466" selection-end="466" vertical-scroll-proportion="-0.13553114">
               <folding />
             </state>
           </provider>
@@ -61,7 +52,7 @@
       <file leaf-file-name="view_add_record.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/view_add_record.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="16" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.625">
+            <state line="5" column="112" selection-start="218" selection-end="218" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
@@ -70,7 +61,16 @@
       <file leaf-file-name="view_reports.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/view_reports.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="144" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="188" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view_confirm_record.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/view_confirm_record.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="90" selection-start="238" selection-end="238" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
@@ -90,7 +90,6 @@
         <option value="$PROJECT_DIR$/application/views/head.php" />
         <option value="$PROJECT_DIR$/application/views/reports_view.php" />
         <option value="$PROJECT_DIR$/application/views/input_form.php" />
-        <option value="$PROJECT_DIR$/application/views/view_confirm_record.php" />
         <option value="$PROJECT_DIR$/application/models/get_db.php" />
         <option value="$PROJECT_DIR$/application/models/db.php" />
         <option value="$PROJECT_DIR$/application/models/model_maps.php" />
@@ -98,10 +97,11 @@
         <option value="$PROJECT_DIR$/system/resources/css/main.css" />
         <option value="$PROJECT_DIR$/application/resources/css/main.css" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
+        <option value="$PROJECT_DIR$/application/views/view_head.php" />
         <option value="$PROJECT_DIR$/application/views/view_reports.php" />
+        <option value="$PROJECT_DIR$/application/views/view_confirm_record.php" />
         <option value="$PROJECT_DIR$/application/views/view_add_record.php" />
         <option value="$PROJECT_DIR$/application/controllers/site.php" />
-        <option value="$PROJECT_DIR$/application/views/view_head.php" />
       </list>
     </option>
   </component>
@@ -138,7 +138,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -191,6 +190,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,8 +198,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -367,63 +367,57 @@
         <state line="40" column="36" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.75213677" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/view_confirm_record.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="20" selection-start="1505" selection-end="1505" vertical-scroll-proportion="-38.75" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/maps.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="20" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="31" column="20" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/resources/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="49" selection-start="1679" selection-end="1679" vertical-scroll-proportion="-15.625">
-          <folding />
-        </state>
+        <state line="54" column="49" selection-start="1679" selection-end="1679" vertical-scroll-proportion="-15.625" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/get_db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="7" selection-end="36" vertical-scroll-proportion="-1.25">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="7" selection-end="36" vertical-scroll-proportion="-1.25" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/view_reports.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="144" vertical-scroll-proportion="-0.0">
+        <state line="0" column="0" selection-start="0" selection-end="188" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/view_add_record.php">
+    <entry file="file://$PROJECT_DIR$/application/views/view_confirm_record.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="16" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/site.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="177" selection-end="177" vertical-scroll-proportion="-3.5416667">
+        <state line="5" column="90" selection-start="238" selection-end="238" vertical-scroll-proportion="-3.125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/view_head.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="147" selection-start="547" selection-end="547" vertical-scroll-proportion="0.39399624">
+        <state line="14" column="153" selection-start="0" selection-end="553" vertical-scroll-proportion="0.39399624">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/view_add_record.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="112" selection-start="218" selection-end="218" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/site.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="49" selection-start="466" selection-end="466" vertical-scroll-proportion="-0.13553114">
           <folding />
         </state>
       </provider>
