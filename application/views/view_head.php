@@ -12,4 +12,4 @@
     <body>
          <div id="container">
                 <?php echo heading($heading);?>
-            <div id="nav_menu"> <a href="<?php echo base_url()?>index.php/site/addRecord">Add Record</a> </div> <!--remove index.php when mod_rewrite -->
+           <div id="nav_menu"> &nbsp &nbsp &nbsp <a href="<?php echo base_url()?>index.php/site/addRecord">Add Record</a> </div> <!--remove index.php when mod_rewrite -->

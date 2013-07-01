@@ -17,7 +17,7 @@ class Get_db extends CI_Model
 
     function getLastRecord($id)
     {
-        $this->db->select('coordinate,note')->from('drains')->where('id', $id);
+        $this->db->select('start_gps,end_gps')->from('drains')->where('id', $id);
         $query = $this->db->get();
         return $query;
     }

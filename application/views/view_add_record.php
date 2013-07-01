@@ -47,13 +47,13 @@
                         );
                         echo form_input($drain_width).'<br> <br>';
 
-                        echo form_label('Distance from carriageway','distance_carriageway' ).'<br>';
-                        $distance_carriageway = array(
-                            'name' => 'distance_carriageway',
-                            'id'=> 'distance_carriageway',
+                        echo form_label('Distance from carriageway','distance_from_carriageway' ).'<br>';
+                        $distance_from_carriageway = array(
+                            'name' => 'distance_from_carriageway',
+                            'id'=> 'distance_from_carriageway',
                             'value'=> ''
                         );
-                        echo form_input($distance_carriageway).'<br> <br>';
+                        echo form_input($distance_from_carriageway).'<br> <br>';
 
                         echo form_label('Visual Grade of Drain','visual_grade_drain' ).'<br>';
                         $visual_grade_drain = array(
@@ -215,13 +215,13 @@
                         );
                         echo form_input($video_finish).'<br> <br>';
 
-                        echo form_label('Other GPS locations','gps_locations' ).'<br>';
-                        $gps_locations = array(
-                            'name' => 'gps_locations',
-                            'id'=> 'gps_locations',
+                        echo form_label('Other GPS locations','any_relative_gps' ).'<br>';
+                        $any_relative_gps = array(
+                            'name' => 'any_relative_gps',
+                            'id'=> 'any_relative_gps',
                             'value'=> ''
                         );
-                        echo form_input($gps_locations).'<br> <br>';
+                        echo form_input($any_relative_gps).'<br> <br>';
 
 
                         echo  '<br>'.form_submit('submit', 'submit');
